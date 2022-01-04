@@ -1,3 +1,7 @@
+---
+description: https://docs.influxdata.com/flux/v0.x/get-started/
+---
+
 # Flux
 
 To see how to retrieve data from a source, select the data source: InfluxDB, CSV, or PostgreSQL.
@@ -20,6 +24,14 @@ Each example includes the following functions (in the order listed):
 * [`mean()`](https://docs.influxdata.com/flux/v0.x/stdlib/universe/mean/) to calculate the average of values returned from the data source.
 * [`yield()`](https://docs.influxdata.com/flux/v0.x/stdlib/universe/yield/) to yield results to the user.
 
-testtesttest
+## Flux syntax basics
+
+### [Pipe-forward operator](https://docs.influxdata.com/flux/v0.x/get-started/syntax-basics/#pipe-forward-operator) <a href="#pipe-forward-operator" id="pipe-forward-operator"></a>
+
+sends the output of one function as input to the next function.
+
+
+
+
 
 __
